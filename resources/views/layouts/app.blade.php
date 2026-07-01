@@ -21,7 +21,7 @@
 @endauth
 
 @php
-    $background = request()->is('login') ? asset('images/welcome.jpg') : asset('images/dashboard/illustration-emblem-for-pet-shop-veterinary-clinic-animal-shelter-vector.jpg');
+    $background = request()->is('login') ? asset('images/welcome.jpg') : asset('images/dashboard/illustration-emblem-for-pet-shop-veterinary-clinic-animal-shelter-vector.avif');
 @endphp
 
 <body class="bg-[linear-gradient(to_top,{{$colors}}),url('{{ $background }}')] bg-center bg-no-repeat bg-cover bg-fixed bg-black text-white pt-14 min-h-dvh flex flex-col gap-2 justify-center items-center">
